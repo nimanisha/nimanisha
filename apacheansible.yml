@@ -1,0 +1,6 @@
+---
+#ansible install apache webservice
+    - hosts: apache
+    tasks:
+      - name: run echo command
+        command: /bin/echo 
